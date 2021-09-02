@@ -1,0 +1,76 @@
+ body{
+ margin:0;      
+ }
+aside{
+     background :linear-gradient(45deg,pink,salmon);
+      width :20rem;
+      height: 100vh;
+      text-align: center; 
+      float:left;
+    
+    }
+aside1{
+      float: right;
+      background:linear-gradient(45deg,pink,salmon);
+      width:20rem;
+      height:100vh;
+     text-align: center;         
+    } 
+
+  img{
+        width:7rem;         
+        height: 7rem;
+        margin-top: 4rem;
+        border:1px solid black;
+        border-radius: 1rem;    
+
+      }       
+
+   a{
+      display: block;
+     text-decoration: none;
+     color:gold;
+     padding: 1rem;
+     font-size: 1rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+     border:1px solid black;
+     border-radius: 2rem;
+     margin: 30px 5px;
+     background-color: rosybrown;
+                    
+  }
+  a:hover{
+     border:1px solid grey;
+     }
+    
+ .fashion-grid{
+     display: grid;
+     grid-template-areas: 
+      'header'
+      'main'
+      'footer';
+      grid-template-columns: 1fr;
+      grid-template-rows: 5rem 1fr 5rem;
+       height: 100vh;
+ }
+   header{
+       grid-area: header;
+       background-color: salmon;
+   }
+   main{
+       grid-area: main;
+       background-color:white;
+   }
+
+   footer{
+       grid-area: footer;
+       background-color: salmon;
+   }
+  .row{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+ 

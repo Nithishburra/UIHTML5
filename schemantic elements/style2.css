@@ -56,7 +56,12 @@ aside1{
  }
    header{
        grid-area: header;
+       color:black;
+       font-size: 2rem;
+       font-family: "comic san ms";
        background-color: salmon;
+       text-decoration: underline;
+       
    }
    main{
        grid-area: main;
@@ -71,6 +76,8 @@ aside1{
       display: flex;
       align-items: center;
       justify-content: center;
-
   }
+  
+
+
  

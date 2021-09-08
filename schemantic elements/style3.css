@@ -1,0 +1,111 @@
+
+body{
+    margin:0;
+    height: 100%;
+}
+nav{
+    background-color:lightcoral;
+   text-align: center;
+   margin-top: 8px;
+   padding: 13.6px;
+   border: 1px solid salmon;
+   } 
+   a{
+     color: black;
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 4rem;
+     text-decoration: none; 
+     
+   }
+   
+   img{
+    margin-top: 14rem;
+    border: 1px solid black;
+    margin-left: 16rem;
+    border-radius: 2rem;
+    
+}
+
+header{  
+    color:white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    padding: 6px;
+    text-align: start;
+
+} 
+
+main{
+    color:honeydew;
+}
+footer{
+    margin-top: 13.3rem;
+    color:white;
+    background-color:black;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 1.1rem;
+    
+}
+aside{
+    background-color:silver ;
+    float: right;
+    width :15rem;
+     height: 73.5vh;
+     text-align: center;
+     margin-top:6.5rem;
+     padding: 1rem;
+         
+   }
+
+   a1{
+    display: block;
+   text-decoration: none;
+   color:gold;
+   padding: 1rem;
+   font-size: 1rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   border:1px solid black;
+   border-radius: 2rem;
+   margin: 30px 5px;
+   background-color: rosybrown;
+                  
+}
+a1:hover{
+   border:1px solid grey;
+   }
+
+   aside1{
+    background-color: silver;
+    float: left;
+     width :15rem;
+     height: 73.5vh;
+     text-align: center;
+     margin-top: 6.5rem;
+     padding: 1rem;
+     background-color: silver;
+     
+   }
+
+   a2{
+    display: block;
+   text-decoration: none;
+   color:gold;
+   padding: 1rem;
+   font-size: 1rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   border:1px solid black;
+   border-radius: 2rem;
+   margin: 30px 5px;
+   background-color: rosybrown;
+                  
+}
+a2:hover{
+   border:1px solid grey;
+   }
+ 
